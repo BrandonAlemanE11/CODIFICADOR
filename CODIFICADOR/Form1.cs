@@ -34,13 +34,20 @@ namespace CODIFICADOR
                 label4.Text = "Demasiados intentos";
                 button1.Enabled = false;
             }
-
-            if(usu == usuario && pass == pas)
+            else
             {
-                inicio des = new inicio();
-                this.Hide();
-                des.Show();
-               
+                if (usu == usuario && pass == pas)
+                {
+                    inicio des = new inicio();
+                    this.Hide();
+                    des.Show();
+
+                }
+                else
+                {
+                    label4.Text = "Contraseña u correo incorrecto";
+                    intentos = intentos + 1;
+                }
             }
         }
     }
