@@ -75,6 +75,9 @@
     <EmbeddedResource Include="Codificador.resx">
       <DependentUpon>Codificador.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Descodificador.resx">
+      <DependentUpon>Descodificador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

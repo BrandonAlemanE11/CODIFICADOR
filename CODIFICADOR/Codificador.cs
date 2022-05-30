@@ -33,13 +33,14 @@ namespace CODIFICADOR
             cifrar();
             men = men + fra;
             label5.Text = men;
+            label3.Text = h;
+            textBox1.Text = "";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             label4.Text = t;
             label2.Text = f;
-            label3.Text = h;
         }
 
         private void button3_Click(object sender, EventArgs e)
