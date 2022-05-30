@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CODIFICADOR", "CODIFICADOR\CODIFICADOR.csproj", "{CAC5B449-4635-46F0-86F4-A678D48571EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAC5B449-4635-46F0-86F4-A678D48571EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC5B449-4635-46F0-86F4-A678D48571EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC5B449-4635-46F0-86F4-A678D48571EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC5B449-4635-46F0-86F4-A678D48571EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9D19346-A792-4101-926C-36882EFD5A38}
+	EndGlobalSection
+EndGlobal
